@@ -3,7 +3,7 @@
 %}
 
 %%
-[ \t\n]  ; // Skip whitespace
+[ \t\n]  ;
 [0-9]+   { printf("NUMBER: %s\n", yytext); }
 "+"      { printf("ADD\n"); }
 "-"      { printf("SUBTRACT\n"); }
